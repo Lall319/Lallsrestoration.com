@@ -71,3 +71,14 @@
 ![1000061889](https://github.com/user-attachments/assets/bb78a0b1-a18a-4795-8df4-1140a2837b55)
 ![1000061784](https://github.com/user-attachments/assets/88936570-5c9e-4010-92f3-bf39748fe860)
 
+/* Reset some default styles */ body, h1, h2, p, ul, ol, li, a { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+
+/* Body styling with background logo / body { background-image: url('logo.png'); / your logo file / background-repeat: no-repeat; background-position: center; background-size: 200px 200px; / adjust size */ background-attachment: fixed; background-color: #f7f7f7; color: #333; line-height: 1.6; padding: 0; margin: 0; }
+
+/* Hero section */ .hero { text-align: center; padding: 60px 20px; background-color: rgba(255, 255, 255, 0.9); } .hero h1 { font-size: 2.5rem; margin-bottom: 20px; } .hero p { font-size: 1.2rem; margin-bottom: 30px; } .btn { text-decoration: none; background-color: #0077cc; color: #fff; padding: 12px 25px; border-radius: 5px; transition: background 0.3s; } .btn:hover { background-color: #005fa3; }
+
+/* Section styling */ section { padding: 50px 20px; max-width: 900px; margin: 0 auto 20px; background-color: rgba(255, 255, 255, 0.9); border-radius: 8px; } h2 { font-size: 2rem; margin-bottom: 20px; } ul, ol { margin-left: 20px; margin-bottom: 15px; }
+
+/* Gallery / images */ .images { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; } .images img { width: 250px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
+
+/* Contact section */ .contact ul { list-style: none; padding: 0; display: flex; gap: 10px;
